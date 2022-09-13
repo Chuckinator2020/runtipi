@@ -47,7 +47,7 @@ const config: IConfig = {
   NODE_ENV,
   ROOT_FOLDER: '/tipi',
   JWT_SECRET,
-  CLIENT_URLS: ['http://localhost:3000', `http://${INTERNAL_IP}`, `http://${INTERNAL_IP}:${NGINX_PORT}`, `http://${INTERNAL_IP}:3000`, `https://${DOMAIN}`],
+  CLIENT_URLS: ['http://localhost:80', 'http://localhost:3000', `http://${INTERNAL_IP}`, `http://${INTERNAL_IP}:${NGINX_PORT}`, `http://${INTERNAL_IP}:3000`, `https://${DOMAIN}`],
   VERSION: TIPI_VERSION,
   ROOT_FOLDER_HOST,
   APPS_REPO_ID,
